@@ -6,6 +6,7 @@ function calculateMinCost() {
     // Create a priority queue
     let pq = [];
    
+    arr.sort(function(a,b){return a-b;});
     // Adding items to the pQueue
     for (let i = 0; i < arr.length; i++) {
         pq.push(Number(arr[i]));
@@ -29,3 +30,4 @@ function calculateMinCost() {
    document.getElementById( 'result' ).innerHTML = res;
 
 }  
+
