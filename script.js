@@ -26,6 +26,6 @@ function calculateMinCost() {
 
    }
 
-  return res;
+   document.getElementById( 'result' ).innerHTML = res;
 
 }  
